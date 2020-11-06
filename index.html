@@ -5,6 +5,7 @@
     <link rel="stylesheet" href="styles.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="valami.js"></script>
     <title>Merevlemez</title>
 </head>
 <body>
@@ -15,15 +16,51 @@
           <div class="collapse navbar-collapse" id="navbarSupportedContent">        
         <ul class="navbar-nav mr-auto">
           <li class="nav-item">
-            <a class="nav-link" href="#">valami 1</a>
+            <a class="nav-link" href="#Pontozas"><span class="toctext logo"><b>Pontozás</b></span></a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">valami 2</a>
+            <a class="nav-link" href="#Ertekeles"><span class="toctext logo"><b>Értékelés</b></span></a> <!-- Ide jön a JS. kiértékelő lap. -->
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">valami 3</a>
+            <a class="nav-link" href="#Forrasok"><span class="toctext logo"><b>Források</b></span></a>
           </li>
         </ul>
       </nav>
+        <br>
+        
+        <div class="pontozas" id="Pontozas">
+            <div id="lb-back">
+                <div id="lb-img"></div>
+                                    </div>
+
+            <img src="pontok1.jpg" class="zoomD"/>
+            
+            
+            
+        <div class="ertekeles" id="Ertekeles"></div>
+       
+            <div class="forrasok" id="Forrasok">
+                    <div class="szoveg-resz">
+
+                        <h2>
+                            <span id="Forrás" class="mw-headline"><u><b class="alcim">Források:</b></u></span></h2>
+                        <ul>
+                            <li data-aos="fade-up"><a href="https://www.oktatas.hu/kozneveles/erettsegi/2021tavaszi_vizsgaidoszak" target="*" class="forraslink">Vizsgaidőszak</a></li>
+                            <iframe src="https://www.oktatas.hu/kozneveles/erettsegi/2021tavaszi_vizsgaidoszak" width="700" hight="500" data-aos="fade-up"></iframe>
+                            
+                            <li data-aos="fade-up"><a href="https://www.oktatas.hu/kozneveles/erettsegi/feladatsorok" target="*" class="forraslink">Feladatsorok</a></li>
+                            <iframe src="https://www.oktatas.hu/kozneveles/erettsegi/feladatsorok" width="700" hight="500" data-aos="fade-up"></iframe>
+                            
+                            <li data-aos="fade-up"><a href="https://www.oktatas.hu/kozneveles/erettsegi/erettsegi_vizsgakkal_kapcsolatos_informaciok" target="*" class="forraslink">Érettségi vizsgákkal kapcsolatos információk</a></li>
+                            <iframe src="https://www.oktatas.hu/kozneveles/erettsegi/erettsegi_vizsgakkal_kapcsolatos_informaciok" width="700" hight="500" data-aos="fade-up"></iframe>
+                            
+                            <li data-aos="fade-up"><a href="https://www.oktatas.hu/kozneveles/erettsegi/2021tavaszi_vizsgaidoszak/2021tavasz_szakmai_erettsegi_vizsgatargyak" target="*" class="forraslink">Szakmai érettségi vizsgatárgyak</a></li>
+                            <iframe src="https://www.oktatas.hu/kozneveles/erettsegi/2021tavaszi_vizsgaidoszak/2021tavasz_szakmai_erettsegi_vizsgatargyak" width="700" hight="500" data-aos="fade-up">
+                            
+                            </iframe>
+                        </ul>
+                    </div>
+                </div>
+            
 </body>
 </html>
