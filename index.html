@@ -7,104 +7,177 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="style.css">
 
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
     <header>
+        <div class="container">
 
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
-            <a class="navbar-brand" href="#">Navbar</a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav">
-                    <li class="nav-item active">
-                        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Features</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Pricing</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
-                    </li>
-                </ul>
-            </div>
-        </nav>
+            <nav class="navbar navbar-expand-lg navbar-light bg-light" id="nav">
+                <a class="navbar-brand" href="#">Érettségi</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="#">Főoldal <span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#pontozolap">Pontozólap</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#forras">Forrás</a>
+                        </li>
+
+                    </ul>
+                </div>
+            </nav>
+        </div>
     </header>
-    <article>
-        5. Ismertesd a mágneses és optikai háttértárak és jellemezd őket! A mágneslemez-egységek a program- és adattárolás eszközei. Míg az operatív memória csak ideiglenesen, legfeljebb a gép kikapcsolásáig őrzi meg tartalmát, a mágneslemezeken nagy mennyiségű
-        információ hosszabb időre - akár évekig is - tárolható. Ezért a mágneslemez-egységeket háttértáraknak is nevezzük. A mágneslemez-egység és az alapgép közötti adatáramlás kétirányú lehet (be/kivitel). A merevlemez-egység (HDD, hard disk drive)
-        olyan elektromechanikus tároló berendezés, amely az adatokat mágnesezhető réteggel bevont, merevlemezen tárolja, a forgó lemez felett repülő író/olvasó fej segítségével. A merevlemez-egységek tárolási kapacitása néhány megabájttól több gigabájtig
-        terjedhet. Az optikai tárolók alatt általában a CD- és DVD-ROM-ok különböző típusait értjük. Ezek a nagy teljesítményű, optikai vagy magneto-optikai elven működő tárolók nagy tömegű adat tárolására alkalmasak. Lehetnek egyszer írhatóak (CD-ROM,
-        csak olvasható), így használhatók adatrögzítésre, vagy például a CD-DA (CD Digital Audio, audio-CD) hang és zene digitális formában történő lejátszására, illetve a CD-RW diszkek írhatóak és olvashatóak is. Jellemző tárolókapacitásuk 74 perc zene
-        vagy 650 MB adat, 80 perc vagy 700 MB. A technika mai állása szerint az adatátvitel sebessége az alap-adatátvitel 150 kilobájt/másodperc 1x, 2x, 4x, 8x, 12x, 20x 32x … 52x szerese is lehet. A video- és a multimédiás (valós idejű) alkalmazások
-        egyre nagyobb adatátvitelt igényelnek, s ennek a kihívásnak próbálnak megfelelni a többszörös sebességű meghajtók. A mágnesszalagos (streamer) egységek az adatok átmeneti vagy hosszabb idejű tárolására használatosak a számítástechnikában, segítségükkel
-        digitális információt rögzíthetünk mágnesszalagon. A merevlemezes egységen levő fájlok, adatok, programok közvetlenül elérhetőek, használhatóak a gép számára, a szalagra mentett információk általában a továbbiakban a szalagról közvetlenül nem
-        használhatók, csak a diszkre történő visszatöltés után. Tárolási kapacitásuk jellemzően 10 Mb-tól 10 Gb-ig terjedhet. Általában nagygépes rendszerekben (bank, informatikai cég, társadalombiztosítás, közigazgatás, stb.) napi rendszeres biztonsági
-        mentésre használatosak. Információtárolásra és csatolóegységekként is használhatóak továbbá az ún. PCMCIA (Personal Computer Memory Card International Association) kártyák, melyek mérete a bankkártyákéhoz mérhető. Vagy beépített funkciókkal rendelkeznek,
-        vagy illesztőként szolgálnak más, külső eszközök felé. Leggyakrabban hordozható számítógépekben fordulnak elő, mint szükségképpen kisméretű kiegészítő tárolóegységek, vagy például faxmodem, globális helymeghatározás, üzenetküldés céljára, ill.
-        hálózati kártyaként használatosak. Smart cardnak nevezzük az olcsó, információtárolásra használt, kisméretű, a PCMCIA kártyákkal gyakran összetévesztett, de azoknál jóval kisebb teljesítményű elektronikus eszközöket. Felhasználási területük: telefonkártya,
-        benzinkút-társaságok ügyfélkártyái, személyi azonosítás, újabban diákigazolvány, stb. Pen Drive - A manapság kapható számítógépek legősibb technológiával rendelkező egysége a 3,5"-os floppymeghajtó, amelynek sem sebessége, sem pedig tárolókapacitása
-        nem kielégítő, ráadásul a megbízhatósága sem valami nagy. Sajnos be kell vallanunk, hogy a "kisfloppy" ideje lassan lejár, helyét korszerűbb és összemérhetetlenül megbízhatóbb technológia veszi át. Nincs többé hibás szektor, nem foglal el helyet
-        a házban, és nem kell neki külön tápfeszültség sem, mert az USB port táplálja feszültséggel. Ráadásul Plug'n'Play eszköz, tehát bármely számítógépben használhatjuk, operációs rendszertől függetlenül, amelynek van USB portja. A Pen Drive neve onnan
-        ered, hogy külsőre olyan, mint egy (kihúzófilc), azonban a belsejében egy Flash EEPROM lapul, amelynek mérete 32MB-2GB-ig terjed. Hordozhatósága minden igényt kielégít. A csatlakozófelület védve van, és akár a nyakunkba is akaszthatjuk, vagy felfűzhetjük
-        a kulcscsomónkra. Súlya nem haladja meg a 20g-ot (18g). A Pen Drive egy elég univerzális eszköz, mert nem csak adattárolásra használható, hanem különböző egységeket építenek Pen Drive-ból. Ilyen például a Pen Drive Plus MP3 lejátszó, vagy a Pen
-        Drive Plus SD/MMC kártyaolvasó. Floppy (hajlékonylemez) egység A hajlékony- vagy mágneslemezes meghajtók, népszerűbb nevükön floppy-k (FDD - Floppy Disk Drive) voltak a PC-s világ legelső, mágneses elven működő háttértárolói. Az első PC-kategóriába
-        tartozó gépek ezt a típust használták az operációs rendszer, illetve a különböző programok, adatok tárolására, betöltésére. Napjainkban a floppy meghajtó eredeti feladatait, kedvezőbb paraméterei miatt, átvette a merevlemezes egység (HDD). A floppylemez
-        mágnesezhető réteggel ellátott műanyag korong, amely egy filcborítású műanyag tokban foglal helyet. A tok védi a lemezt a külső behatások ellen, esetleges megbontása vagy eltávolítása után a lemez nem használható. A borításon kialakított nyílások
-        a lemez pozícionálásához, felpörgetéséhez és az adatok írásához-olvasásához szükséges mechanikai lehetőségeket adják. Mai fő alkalmazási területei: operációs rendszerek és felhasználói programok eredeti, üzembe helyezhető (setup) példányának tárolása
-        programok, adatok archiválása, másodpéldányok készítése gép-gép közti adatcsere Floppy lemezes meghajtótípusok A floppymeghajtók csoportosításánál a két legfontosabb szempont a fizikai felépítés (méret) és a tárolókapacitás. A méretek inch-ben
-        (jele: ") vagy német nyelvterületen zoll-ban értendőek és az alkalmazott mágneslemez átmérőjére vonatkozik. (1 hüvelyk = 1 inch = 1 zoll = 2.54 cm) Ezek alapján megkülönböztetünk 5.25" és 3.5" átmérőjű lemezt kezelő típusokat: 5.25 col-os típus
-        - Eredetileg (IBM PC, XT) 360 kilobájt adatot tudtak tárolni egy lemezen, a később megjelent PC AT számítógépekben, nagyobb adatsűrűségű lemezt használva, ugyanez a méretű meghajtó már 1.2 megabyte kapacitású volt. Ezt a típust napjainkra teljesen
-        felváltotta a 3.5 hüvelykes kivitel. 3.5 col-os típus - Az előző típus továbbfejlesztett változata, mely 720 kilobájtot tudott tárolni, nagyobb adatsűrűségű lemezt használva ma már 1.44 megabájt kapacitást érhetünk el. A mai PC-k szinte kizárólag
-        az 1.44 megabájtos típust használják. Az adatok felírása és visszaolvasása elektromágneses úton történik. Mindkét típus rendelkezik olyan fizikai, azaz szoftver úton nem feloldható írásvédelmi (write protect) lehetőséggel, amely az adatok nem
-        kívánt felülírását vagy törlését akadályozza meg. Ilyen nem kívánt felülírás történhet gondatlan kezelésből, de okozhatja számítógépes vírus is. Ahhoz, hogy a floppy-n lévő mágneses réteg alkalmas legyen az adatok fogadására, létre kell hozni
-        rajta a tároláshoz szükséges struktúrát. Ezt a folyamatot formázásnak (formattálásnak) nevezzük. A formázás során a lemezen létrejönnek a sávok, track-ek és szektorok. Ha a formázást végző program hibás részt talál a lemezen, úgy a hibás részre
-        eső szektorokat kihagyja a további feldolgozásból. A hibás szektorok csökkentik a lemez felhasználható kapacitását. A sávok és track-ek száma a különböző tárolókapacitású lemezeken eltérő. Az 1.44 Mb-os floppymeghajtóban formázott lemez esetén
-        80 sávot és egy track-en 18 szektort találunk. Egy szektor mérete 512 byte. Szintén a formázó program feladata, a fájl-ok tárolásához szükséges, az operációs rendszer által használt lemezrészek (pl. FAT, boot szektor, stb.) kialakítása is. Az
-        alábbi táblázat a floppy meghajtók méret és tárolókapacitás szerinti felsorolását, valamint a hozzájuk tartózó lemezek típusait tartalmazza. 3.5" 5.25" DS DD 720 KB 360 KB DS HD 1.44 MB 1.2 MB DS ED 2.88 MB - A floppylemezeken lévő rövidítések
-        magyarázata: Rövidítés angolul magyarul SS single sided egyoldalas (már nem használatos) DS, vagy 2S double sided kétoldalú (mindkét oldalon írható) SD single density egyszeres sűrűségű (már nem használatos) DD double density kétszeres sűrűségű
-        HD high density nagy sűrűségű ED extra density extra sűrűségű Hajlékonylemez formázása Ahhoz, hogy egy floppy lemezre adatokat írhassunk, legalább egyszer elő kell készítenünk az adatok helyét. Ezt a műveletet nevezzük a lemez formattálásának
-        vagy formázásának. Napjainkban a piaci kínálat nagy többsége előre formázott lemezekből áll, mégis előfordulhat, hogy szükségünk van egy lemez megformázására. Akkor is a formázás műveletet használjuk, ha teljesen le kívánunk törölni egy lemezt,
-        de mivel azon sok állomány található, a formázás gyorsabb, mint a fájlok egyenkénti törlése. A formázáshoz nyissuk meg a Sajátgép mappát. Egyszeres kattintással jelöljük ki a formázni kívánt (A: vagy B:) meghajtót, majd válasszuk a Fájl menü Formázás
-        parancsát. A merevlemez formázásától óvakodjunk, mert ez minden adatunk és programunk elvesztését jelenti. Merevlemezes meghajtók Napjaink egyik legelterjedtebb számítástechnikai tárolóeszköze a merevlemezes tároló, a hard diszk, amit egyszerűen
-        csak diszknek nevezünk. A diszk olyan elektromechanikus tároló berendezés, amely az adatokat mágnesezhető réteggel bevont merevlemezen tárolja, a forgó lemez felett mozgó író/olvasó fej segítségével. Az adatok rögzítése soros. Az adatlemez legkisebb
-        fizikailag címezhető része a szektor. A merevlemez-egységek tárolási kapacitása: 20, 40, 120 GB napjainkban. A manapság használatos diszkek winchester rendszerűek. A winchester elnevezés arra utal, hogy a lemez felett mozgó fejek a diszk kikapcsolása
-        után a lemez parkolásra kijelölt felületén landolnak, illetve bekapcsoláskor onnan emelkednek fel. A nem winchester rendszerű diszkek esetében a fejek a lemezen kívül parkolnak, illetve onnan viszi be a fejmozgató mechanika a lemez felülete fölé.
-        A diszkeknél a mágneses információt hordozó anyag a mágnesezhető réteggel bevont merevlemez. A lemez állandó fordulatszámmal forogva elhalad a fej előtt, mégpedig úgy, hogy fizikailag nem érintkezik vele. A lemez forgásából származó légmozgás
-        felhajtó erőt gyakorol a fejre, a fejet pedig torziós rugó nyomja a lemez felé. A két erő kiegyenlítődése következtében a fej a lemez felületétől mért néhány tized mikrométerre repül. Az adatok szervezésének legalapvetőbb egysége a sáv (track).
-        Miközben a fej fixen áll egy teljes lemezfordulaton át, az előtte (felette és alatta) elhaladó lemezfelületen egy körgyűrűt ír le. Ez a körgyűrű a sáv, amely egy bit szélességű, s amelyen az adatok a fej fix állása mellet végig elérhetőek. A lemezfelület
-        fel van osztva sávokra. A fej egy karon keresztül összeköttetésben áll a fejpozicionáló egységgel, mely nagy sebességgel képes a fejet a lemez felett, a különböző sávok között mozgatni. Mivel egy lemeznek két felülete van, a diszkek kettőnél kevesebb
-        fejjel nem készülnek, a nagyobb kapacitású diszkek több lemezt, s így több fejet használnak. Ezek a fejek egy közös karmozgató egységre vannak rögzítve, így együtt mozognak. Ebből következően, ha az egyik fejet pozícionáljuk valamelyik sávra,
-        valamennyi fej a saját lemezfelületének megfelelő azonos sávra kerül. Ezeket az összetartozó sávokat, melyek hengerpalástot alkotnak, cilindernek nevezzük. A fejmozgató egység legkisebb elmozdulása egy sávnyi, de azt is mondhatjuk, hogy egy cilindernyi.
-        A diszken tárolt adatok cilinderekbe vannak szervezve. Pozícionálás nélkül lehet elérni a cilinder valamennyi adatát, csupán fejváltásra van szükség. A sávok további részekre, szektorokra vannak osztva. A szektor tartalmazza az adatmezőt, mely
-        általában 512 bájt hosszúságú. Hordozható változat: mobil rack. Optikai tárolók A '80-as évek elején felmerült az, hogy létrehoznak egy olyan eszközt és adathordozó médiumot, amely a korábbi, mágneses elven működő adathordozók hibáit, korszerűtlenségét
-        - a szalag nyúlása, és ebből adódó futás-egyenetlenség; a hőre és mágnesességre való nagyfokú érzékenység; kevéssé biztos adattárolási biztonság, mely idővel egyenesen arányosan romlik; nagy térfogat; kis kapacitás és viszonylagosan lassú adatelérési
-        sebesség - kívánta véglegesen kiküszöbölni. CD-A, melyet 1982-ben szabványosított rendszerré alakított a Philips és a Sony. Az optikai tároló rendszerekre jellemző, hogy az írás és olvasás lézersugárral történik. Nevüknek megfelelően optikai eljárást
-        használnak (fényvisszaverődés, polarizáció, szórás, fénytörés) az adatok írására és olvasására. Ahogy az ábrán látható, az optikai tároló felületén az adatok rögzítésekor kis méretű mélyedéseket hozunk létre, amelyeken a leolvasáskor a lézersugár
-        szétszóródik, míg az adathordozó-réteg eredeti felületéről visszaverődik. A médium olvasásakor a visszavert fényt érzékeljük, és alakítjuk vissza adatokká. Nagy tárolási sűrűség jellemző. Élettartam: az optikai tárolók élettartamát évtizedekben
-        mérik. Az optikai adathordozó előállítási költsége általában alacsony, az árat lényegében a lemezen lévő programok, adatok, zeneszámok és egyéb információk piaci értéke határozza meg, ami mellett az előállítási költség eltörpül. Az optikati adatattárolók
-        - az adatok felírása, leolvasása és a gyártástechnológia szempontjából - három jól elkülöníthető típusra oszthatók: Csak olvasható optikai tárolók a ROM (Read Only Memory) típusú CD-k. Ez a legelterjedtebb CD-ROM, Az egyszer írható és többször
-        olvasható tárolók a CD-WO-k (Compact Disc - Write Once). Ezt a típust csak CD-R-ként (Compact Disc Recordable), írható CD-ként emlegetjük. Újraírható, törölhető, olvasható optikai tárolók a CD-RW (650, 700 MB tárkapacitással) és a CD-MO (Compact
-        Disc - Magneto-Optical, jellemzően 650 MB tárkapacitással) típusúak. A napi gyakorlatban elterjedt és használt CD típusok (CD-ROM, CD-R, CD-DA) jellemző tárolókapacitása: 74 perc (650 MB), illetve 80 perc (700 MB). 1992-ben létrejött a DVD Egy
-        DVD lemez külsőre nagyon hasonlít a CD-lemezhez, azonban a nagyobb adatsűrűségnek köszönhetően tárolási kapacitása - az oldalak és tárolási rétegek számától függően - 7-25-szöröse a CD-knél megszokott értékeknek. Az alapvető fizikai különbség
-        a lemezek között, hogy a DVD-lemez mindig két, 0,6 mm vastagságú lemezből, összeragasztással készül, és akár mindkét oldalán tárolhat adatokat. A technológiai fejlődésnek köszönhetően a lemez egy-egy oldalán két felvételi réteg alakítható ki.
-        Az oldalak és rétegek számának kombinálásából jött létre a DVD négy alaptípusa. A legegyszerűbb DVD-lemez, a DVD5 egyoldalas, egyrétegű lemez, a kapacitása 4,7 GB. A kétrétegű egyoldalas lemez, a DVD9 kapacitása 8,54 GB. A két réteg távolsága
-        20-70 µm, és tiszta gyanta választja el egymástól. A kétoldalas, oldalanként egy rétegű DVD lemez, a DVD10 kapacitása 9,4 GB. A gyártása annyiban tér el a DVD5-lemezétől, hogy mindkét 0,6 mm vastagságú lemezben kialakítanak lyukakat összeragasztás
-        előtt. A második oldal olvasásához a lemezt meg kell fordítani a lejátszóban. Mivel ez pl. videó lejátszása közben zavaró lehet, ma már inkább a DVD9 lemezeket használják a hasonló nagyságrendű tárolókapacitást igénylő alkalmazásokban. A kétoldalas,
-        oldalanként két rétegű DVD lemez, a DVD18 kapacitása 17,08 GB. A működés elve hasonló a DVD9 lemezekéhez, azonban itt a lemez mindkét oldalán kialakítják a két-két adathordozó réteget. A bonyolultabb gyártási eljárás miatt ez a típus viszonylag
-        ritka.
-    </article>
-    <footer>
+    <section>
+        <div class="container">
+            <h2> 5. Ismertesd a mágneses és optikai háttértárak és jellemezd őket!</h2>
+            <p>
 
+                A mágneslemez-egységek a program- és adattárolás eszközei. Míg az operatív memória csak ideiglenesen, legfeljebb a gép kikapcsolásáig őrzi meg tartalmát, a mágneslemezeken nagy mennyiségű információ hosszabb időre - akár évekig is - tárolható. Ezért a
+                mágneslemez-egységeket háttértáraknak is nevezzük. A mágneslemez-egység és az alapgép közötti adatáramlás kétirányú lehet (be/kivitel). A merevlemez-egység (HDD, hard disk drive) olyan elektromechanikus tároló berendezés, amely az adatokat
+                mágnesezhető réteggel bevont, merevlemezen tárolja, a forgó lemez felett repülő író/olvasó fej segítségével. A merevlemez-egységek tárolási kapacitása néhány megabájttól több gigabájtig terjedhet.
+                <p>
+
+                    Az optikai tárolók alatt általában a CD- és DVD-ROM-ok különböző típusait értjük. Ezek a nagy teljesítményű, optikai vagy magneto-optikai elven működő tárolók nagy tömegű adat tárolására alkalmasak. Lehetnek egyszer írhatóak (CD-ROM, csak olvasható),
+                    így használhatók adatrögzítésre, vagy például a CD-DA (CD Digital Audio, audio-CD) hang és zene digitális formában történő lejátszására, illetve a CD-RW diszkek írhatóak és olvashatóak is. Jellemző tárolókapacitásuk 74 perc zene vagy
+                    650 MB adat, 80 perc vagy 700 MB. A technika mai állása szerint az adatátvitel sebessége az alap-adatátvitel 150 kilobájt/másodperc 1x, 2x, 4x, 8x, 12x, 20x 32x … 52x szerese is lehet. A video- és a multimédiás (valós idejű) alkalmazások
+                    egyre nagyobb adatátvitelt igényelnek, s ennek a kihívásnak próbálnak megfelelni a többszörös sebességű meghajtók. A mágnesszalagos (streamer) egységek az adatok átmeneti vagy hosszabb idejű tárolására használatosak a számítástechnikában,
+                    segítségükkel digitális információt rögzíthetünk mágnesszalagon. A merevlemezes egységen levő fájlok, adatok, programok közvetlenül elérhetőek, használhatóak a gép számára, a szalagra mentett információk általában a továbbiakban a
+                    szalagról közvetlenül nem használhatók, csak a diszkre történő visszatöltés után. Tárolási kapacitásuk jellemzően 10 Mb-tól 10 Gb-ig terjedhet. Általában nagygépes rendszerekben (bank, informatikai cég, társadalombiztosítás, közigazgatás,
+                    stb.) napi rendszeres biztonsági mentésre használatosak. Információtárolásra és csatolóegységekként is használhatóak továbbá az ún. PCMCIA (Personal Computer Memory Card International Association) kártyák, melyek mérete a bankkártyákéhoz
+                    mérhető. Vagy beépített funkciókkal rendelkeznek, vagy illesztőként szolgálnak más, külső eszközök felé. Leggyakrabban hordozható számítógépekben fordulnak elő, mint szükségképpen kisméretű kiegészítő tárolóegységek, vagy például faxmodem,
+                    globális helymeghatározás, üzenetküldés céljára, ill. hálózati kártyaként használatosak.
+                </p>
+                <p>
+
+
+                    Smart cardnak nevezzük az olcsó, információtárolásra használt, kisméretű, a PCMCIA kártyákkal gyakran összetévesztett, de azoknál jóval kisebb teljesítményű elektronikus eszközöket. Felhasználási területük: telefonkártya, benzinkút-társaságok ügyfélkártyái,
+                    személyi azonosítás, újabban diákigazolvány, stb. Pen Drive - A manapság kapható számítógépek legősibb technológiával rendelkező egysége a 3,5"-os floppymeghajtó, amelynek sem sebessége, sem pedig tárolókapacitása nem kielégítő, ráadásul
+                    a megbízhatósága sem valami nagy. Sajnos be kell vallanunk, hogy a "kisfloppy" ideje lassan lejár, helyét korszerűbb és összemérhetetlenül megbízhatóbb technológia veszi át. Nincs többé hibás szektor, nem foglal el helyet a házban,
+                    és nem kell neki külön tápfeszültség sem, mert az USB port táplálja feszültséggel. Ráadásul Plug'n'Play eszköz, tehát bármely számítógépben használhatjuk, operációs rendszertől függetlenül, amelynek van USB portja. A Pen Drive neve
+                    onnan ered, hogy külsőre olyan, mint egy (kihúzófilc), azonban a belsejében egy Flash EEPROM lapul, amelynek mérete 32MB-2GB-ig terjed. Hordozhatósága minden igényt kielégít. A csatlakozófelület védve van, és akár a nyakunkba is akaszthatjuk,
+                    vagy felfűzhetjük a kulcscsomónkra. Súlya nem haladja meg a 20g-ot (18g). A Pen Drive egy elég univerzális eszköz, mert nem csak adattárolásra használható, hanem különböző egységeket építenek Pen Drive-ból. Ilyen például a Pen Drive
+                    Plus MP3 lejátszó, vagy a Pen Drive Plus SD/MMC kártyaolvasó. Floppy (hajlékonylemez) egység A hajlékony- vagy mágneslemezes meghajtók, népszerűbb nevükön floppy-k (FDD - Floppy Disk Drive) voltak a PC-s világ legelső, mágneses elven
+                    működő háttértárolói. Az első PC-kategóriába tartozó gépek ezt a típust használták az operációs rendszer, illetve a különböző programok, adatok tárolására, betöltésére. Napjainkban a floppy meghajtó eredeti feladatait, kedvezőbb paraméterei
+                    miatt, átvette a merevlemezes egység (HDD). A floppylemez mágnesezhető réteggel ellátott műanyag korong, amely egy filcborítású műanyag tokban foglal helyet. A tok védi a lemezt a külső behatások ellen, esetleges megbontása vagy eltávolítása
+                    után a lemez nem használható. A borításon kialakított nyílások a lemez pozícionálásához, felpörgetéséhez és az adatok írásához-olvasásához szükséges mechanikai lehetőségeket adják.
+                </p>
+                <p>
+
+                    Mai fő alkalmazási területei: operációs rendszerek és felhasználói programok eredeti, üzembe helyezhető (setup) példányának tárolása programok, adatok archiválása, másodpéldányok készítése gép-gép közti adatcsere Floppy lemezes meghajtótípusok A floppymeghajtók
+                    csoportosításánál a két legfontosabb szempont a fizikai felépítés (méret) és a tárolókapacitás. A méretek inch-ben (jele: ") vagy német nyelvterületen zoll-ban értendőek és az alkalmazott mágneslemez átmérőjére vonatkozik. (1 hüvelyk
+                    = 1 inch = 1 zoll = 2.54 cm) Ezek alapján megkülönböztetünk 5.25" és 3.5" átmérőjű lemezt kezelő típusokat: 5.25 col-os típus - Eredetileg (IBM PC, XT) 360 kilobájt adatot tudtak tárolni egy lemezen, a később megjelent PC AT számítógépekben,
+                    nagyobb adatsűrűségű lemezt használva, ugyanez a méretű meghajtó már 1.2 megabyte kapacitású volt. Ezt a típust napjainkra teljesen felváltotta a 3.5 hüvelykes kivitel. 3.5 col-os típus - Az előző típus továbbfejlesztett változata,
+                    mely 720 kilobájtot tudott tárolni, nagyobb adatsűrűségű lemezt használva ma már 1.44 megabájt kapacitást érhetünk el. A mai PC-k szinte kizárólag az 1.44 megabájtos típust használják. Az adatok felírása és visszaolvasása elektromágneses
+                    úton történik. Mindkét típus rendelkezik olyan fizikai, azaz szoftver úton nem feloldható írásvédelmi (write protect) lehetőséggel, amely az adatok nem kívánt felülírását vagy törlését akadályozza meg. Ilyen nem kívánt felülírás történhet
+                    gondatlan kezelésből, de okozhatja számítógépes vírus is. Ahhoz, hogy a floppy-n lévő mágneses réteg alkalmas legyen az adatok fogadására, létre kell hozni rajta a tároláshoz szükséges struktúrát. Ezt a folyamatot formázásnak (formattálásnak)
+                    nevezzük.
+                </p>
+                <p>
+
+                    A formázás során a lemezen létrejönnek a sávok, track-ek és szektorok. Ha a formázást végző program hibás részt talál a lemezen, úgy a hibás részre eső szektorokat kihagyja a további feldolgozásból. A hibás szektorok csökkentik a lemez felhasználható
+                    kapacitását. A sávok és track-ek száma a különböző tárolókapacitású lemezeken eltérő. Az 1.44 Mb-os floppymeghajtóban formázott lemez esetén 80 sávot és egy track-en 18 szektort találunk. Egy szektor mérete 512 byte. Szintén a formázó
+                    program feladata, a fájl-ok tárolásához szükséges, az operációs rendszer által használt lemezrészek (pl. FAT, boot szektor, stb.) kialakítása is. Az alábbi táblázat a floppy meghajtók méret és tárolókapacitás szerinti felsorolását,
+                    valamint a hozzájuk tartózó lemezek típusait tartalmazza. 3.5" 5.25" DS DD 720 KB 360 KB DS HD 1.44 MB 1.2 MB DS ED 2.88 MB - A floppylemezeken lévő rövidítések magyarázata: Rövidítés angolul magyarul SS single sided egyoldalas (már
+                    nem használatos) DS, vagy 2S double sided kétoldalú (mindkét oldalon írható) SD single density egyszeres sűrűségű (már nem használatos) DD double density kétszeres sűrűségű HD high density nagy sűrűségű ED extra density extra sűrűségű
+                    Hajlékonylemez formázása Ahhoz, hogy egy floppy lemezre adatokat írhassunk, legalább egyszer elő kell készítenünk az adatok helyét. Ezt a műveletet nevezzük a lemez formattálásának vagy formázásának. Napjainkban a piaci kínálat nagy
+                    többsége előre formázott lemezekből áll, mégis előfordulhat, hogy szükségünk van egy lemez megformázására. Akkor is a formázás műveletet használjuk, ha teljesen le kívánunk törölni egy lemezt, de mivel azon sok állomány található,
+                    a formázás gyorsabb, mint a fájlok egyenkénti törlése. A formázáshoz nyissuk meg a Sajátgép mappát. Egyszeres kattintással jelöljük ki a formázni kívánt (A: vagy B:) meghajtót, majd válasszuk a Fájl menü Formázás parancsát. A merevlemez
+                    formázásától óvakodjunk, mert ez minden adatunk és programunk elvesztését jelenti. Merevlemezes meghajtók Napjaink egyik legelterjedtebb számítástechnikai tárolóeszköze a merevlemezes tároló, a hard diszk, amit egyszerűen csak diszknek
+                    nevezünk. A diszk olyan elektromechanikus tároló berendezés, amely az adatokat mágnesezhető réteggel bevont merevlemezen tárolja, a forgó lemez felett mozgó író/olvasó fej segítségével. Az adatok rögzítése soros. Az adatlemez legkisebb
+                    fizikailag címezhető része a szektor. A merevlemez-egységek tárolási kapacitása: 20, 40, 120 GB napjainkban. A manapság használatos diszkek winchester rendszerűek.
+                </p>
+                <p>
+
+                    A winchester elnevezés arra utal, hogy a lemez felett mozgó fejek a diszk kikapcsolása után a lemez parkolásra kijelölt felületén landolnak, illetve bekapcsoláskor onnan emelkednek fel. A nem winchester rendszerű diszkek esetében a fejek a lemezen kívül
+                    parkolnak, illetve onnan viszi be a fejmozgató mechanika a lemez felülete fölé. A diszkeknél a mágneses információt hordozó anyag a mágnesezhető réteggel bevont merevlemez. A lemez állandó fordulatszámmal forogva elhalad a fej előtt,
+                    mégpedig úgy, hogy fizikailag nem érintkezik vele. A lemez forgásából származó légmozgás felhajtó erőt gyakorol a fejre, a fejet pedig torziós rugó nyomja a lemez felé. A két erő kiegyenlítődése következtében a fej a lemez felületétől
+                    mért néhány tized mikrométerre repül. Az adatok szervezésének legalapvetőbb egysége a sáv (track). Miközben a fej fixen áll egy teljes lemezfordulaton át, az előtte (felette és alatta) elhaladó lemezfelületen egy körgyűrűt ír le. Ez
+                    a körgyűrű a sáv, amely egy bit szélességű, s amelyen az adatok a fej fix állása mellet végig elérhetőek. A lemezfelület fel van osztva sávokra. A fej egy karon keresztül összeköttetésben áll a fejpozicionáló egységgel, mely nagy sebességgel
+                    képes a fejet a lemez felett, a különböző sávok között mozgatni. Mivel egy lemeznek két felülete van, a diszkek kettőnél kevesebb fejjel nem készülnek, a nagyobb kapacitású diszkek több lemezt, s így több fejet használnak. Ezek a fejek
+                    egy közös karmozgató egységre vannak rögzítve, így együtt mozognak. Ebből következően, ha az egyik fejet pozícionáljuk valamelyik sávra, valamennyi fej a saját lemezfelületének megfelelő azonos sávra kerül. Ezeket az összetartozó sávokat,
+                    melyek hengerpalástot alkotnak, cilindernek nevezzük. A fejmozgató egység legkisebb elmozdulása egy sávnyi, de azt is mondhatjuk, hogy egy cilindernyi.
+                </p>
+                <p>
+                    <img src="https://cdn.erettsegi.com/wp-content/uploads/2020/05/wyd_wfifjvs-scaled.jpg" alt="merevlemez"> A diszken tárolt adatok cilinderekbe vannak szervezve. Pozícionálás nélkül lehet elérni a cilinder valamennyi adatát, csupán fejváltásra
+                    van szükség. A sávok további részekre, szektorokra vannak osztva. A szektor tartalmazza az adatmezőt, mely általában 512 bájt hosszúságú. Hordozható változat: mobil rack. Optikai tárolók A '80-as évek elején felmerült az, hogy létrehoznak
+                    egy olyan eszközt és adathordozó médiumot, amely a korábbi, mágneses elven működő adathordozók hibáit, korszerűtlenségét - a szalag nyúlása, és ebből adódó futás-egyenetlenség; a hőre és mágnesességre való nagyfokú érzékenység; kevéssé
+                    biztos adattárolási biztonság, mely idővel egyenesen arányosan romlik; nagy térfogat; kis kapacitás és viszonylagosan lassú adatelérési sebesség - kívánta véglegesen kiküszöbölni. CD-A, melyet 1982-ben szabványosított rendszerré alakított
+                    a Philips és a Sony. Az optikai tároló rendszerekre jellemző, hogy az írás és olvasás lézersugárral történik. Nevüknek megfelelően optikai eljárást használnak (fényvisszaverődés, polarizáció, szórás, fénytörés) az adatok írására és
+                    olvasására. Ahogy az ábrán látható, az optikai tároló felületén az adatok rögzítésekor kis méretű mélyedéseket hozunk létre, amelyeken a leolvasáskor a lézersugár szétszóródik, míg az adathordozó-réteg eredeti felületéről visszaverődik.
+                    A médium olvasásakor a visszavert fényt érzékeljük, és alakítjuk vissza adatokká. Nagy tárolási sűrűség jellemző. Élettartam: az optikai tárolók élettartamát évtizedekben mérik. Az optikai adathordozó előállítási költsége általában
+                    alacsony, az árat lényegében a lemezen lévő programok, adatok, zeneszámok és egyéb információk piaci értéke határozza meg, ami mellett az előállítási költség eltörpül. Az optikati adatattárolók - az adatok felírása, leolvasása és a
+                    gyártástechnológia szempontjából - három jól elkülöníthető típusra oszthatók: Csak olvasható optikai tárolók a ROM (Read Only Memory) típusú CD-k. Ez a legelterjedtebb CD-ROM, Az egyszer írható és többször olvasható tárolók a CD-WO-k
+                    (Compact Disc - Write Once). Ezt a típust csak CD-R-ként (Compact Disc Recordable), írható CD-ként emlegetjük. Újraírható, törölhető, olvasható optikai tárolók a CD-RW (650, 700 MB tárkapacitással) és a CD-MO (Compact Disc - Magneto-Optical,
+                    jellemzően 650 MB tárkapacitással) típusúak. A napi gyakorlatban elterjedt és használt CD típusok (CD-ROM, CD-R, CD-DA) jellemző tárolókapacitása: 74 perc (650 MB), illetve 80 perc (700 MB). 1992-ben létrejött a DVD Egy DVD lemez külsőre
+                    nagyon hasonlít a CD-lemezhez, azonban a nagyobb adatsűrűségnek köszönhetően tárolási kapacitása - az oldalak és tárolási rétegek számától függően - 7-25-szöröse a CD-knél megszokott értékeknek. Az alapvető fizikai különbség a lemezek
+                    között, hogy a DVD-lemez mindig két, 0,6 mm vastagságú lemezből, összeragasztással készül, és akár mindkét oldalán tárolhat adatokat. A technológiai fejlődésnek köszönhetően a lemez egy-egy oldalán két felvételi réteg alakítható ki.
+                    Az oldalak és rétegek számának kombinálásából jött létre a DVD négy alaptípusa. A legegyszerűbb DVD-lemez, a DVD5 egyoldalas, egyrétegű lemez, a kapacitása 4,7 GB. A kétrétegű egyoldalas lemez, a DVD9 kapacitása 8,54 GB. A két réteg
+                    távolsága 20-70 µm, és tiszta gyanta választja el egymástól. A kétoldalas, oldalanként egy rétegű DVD lemez, a DVD10 kapacitása 9,4 GB. A gyártása annyiban tér el a DVD5-lemezétől, hogy mindkét 0,6 mm vastagságú lemezben kialakítanak
+                    lyukakat összeragasztás előtt. A második oldal olvasásához a lemezt meg kell fordítani a lejátszóban. Mivel ez pl. videó lejátszása közben zavaró lehet, ma már inkább a DVD9 lemezeket használják a hasonló nagyságrendű tárolókapacitást
+                    igénylő alkalmazásokban. A kétoldalas, oldalanként két rétegű DVD lemez, a DVD18 kapacitása 17,08 GB. A működés elve hasonló a DVD9 lemezekéhez, azonban itt a lemez mindkét oldalán kialakítják a két-két adathordozó réteget. A bonyolultabb
+                    gyártási eljárás miatt ez a típus viszonylag ritka.
+                </p>
+            </p>
+    </section>
+    <section id="pontozolap">
+        <div class="container">
+            <div id="space"></div>
+
+            <h1>Középszintű informatika érettségi - Pontozólap</h1>
+
+            <br>
+            <div class="col-md-5 lap">
+                <form id="pontozo" name="pontozo">
+                    <b><p id="szo"> Írásbeli</p></b>
+                    <p class="i">Hálózat: 40 pont</p> <input type="text" id="halozati" name="halozati">
+                    <p class="i">Programozás: 40 pont</p> <input type="text" id="programozasi" name="programozasi">
+                    <p class="i">Weblap és Adatbázis: 40 pont</p> <input type="text" id="weblapi" name="weblapi">
+
+                    <p>Összesen: 120 pont</p>
+
+                    <b><p id="ir"> Szóbeli</p></b>
+                    <input type="text" id="szobeli" name="szobeli">
+
+
+                    <p>Összesen: 30 pont</p>
+                    <input id="button" type="button" value="Számít" onclick="check()">
+                </form>
+
+
+                <b>
+              <p>Elért pontszám:</p>
+              <p id="eredmeny"></p>
+              <p>Érdemjegy:</p>
+              <p id="mennyi"></p>
+              </b>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <p>
+
+            Csinálta: Mikáczó János
+        </p>
+        <p id="forras">
+            források: <a href="https://www.oktatas.hu">https://www.oktatas.hu</a>
+        </p>
+        <p>
+
+        </p>
     </footer>
 
+
+    </div>
     <script src="script.js"></script>
 </body>
 
