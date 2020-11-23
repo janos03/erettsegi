@@ -31,7 +31,11 @@ function check() {
         emeltpont = 1;
     }
 
-
+    if (a > 40 || b > 40 || c > 40 || d > 30) {
+        alert("Kérlek írj be érvényes pontszámot")
+    } else if (a < 0 || b < 0 || c < 0 || d < 0) {
+        alert("Kérlek írj be érvényes pontszámot, nem gondolom azt, hogy 0-nál kevesebb pontot sikerült szerezni. :(")
+    }
 
 
     if (szobeli <= 3.75 || a + b + c <= 38) {
@@ -43,6 +47,5 @@ function check() {
     var jaa = Number(document.getElementById('emeltmennyi').innerHTML = "emeltszinten:" + " " + emeltpont);
 
     return false;
-
 
 }

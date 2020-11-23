@@ -41,7 +41,7 @@
     <section>
         <div class="container">
             <h2> 5. Ismertesd a mágneses és optikai háttértárak és jellemezd őket!</h2>
-
+            <hr>
             <p data-aos="fade-up">
                 A mágneslemez-egységek a program- és adattárolás eszközei. Míg az operatív memória csak ideiglenesen, legfeljebb a gép kikapcsolásáig őrzi meg tartalmát, a mágneslemezeken nagy mennyiségű információ hosszabb időre - akár évekig is - tárolható. Ezért a
                 mágneslemez-egységeket háttértáraknak is nevezzük. A mágneslemez-egység és az alapgép közötti adatáramlás kétirányú lehet (be/kivitel). A merevlemez-egység (HDD, hard disk drive) olyan elektromechanikus tároló berendezés, amely az adatokat
@@ -142,14 +142,14 @@
             <div class="col-md-5 lap" data-aos="fade-up" data-aos-duration="1005000">
                 <form id="pontozo" name="pontozo">
                     <b><p id="szo"> Írásbeli</p></b>
-                    <p class="i">Hálózat: 40 pont</p> <input type="text" id="halozati" name="halozati">
-                    <p class="i">Programozás: 40 pont</p> <input type="text" id="programozasi" name="programozasi">
-                    <p class="i">Weblap és Adatbázis: 40 pont</p> <input type="text" id="weblapi" name="weblapi">
+                    <p class="halo">Hálózat: 40 pont</p> <input type="number" max="40" min="0" id="halozati" name="halozati">
+                    <p class="prog">Programozás: 40 pont</p> <input type="number" min="0" max="40" id="programozasi" name="programozasi">
+                    <p class="web">Weblap és Adatbázis: 40 pont</p> <input type="number" max="40" min="0" id="weblapi" name="weblapi">
 
                     <p>Összesen: 120 pont</p>
 
                     <b><p id="ir"> Szóbeli</p></b>
-                    <input type="text" id="szobeli" name="szobeli">
+                    <input type="number" id="szobeli" min="0" max="30" name="szobeli">
 
 
                     <p>Összesen: 30 pont</p>
@@ -161,7 +161,7 @@
               <p>Elért pontszám:</p>
               <p id="eredmeny"></p>
               <p>Érdemjegy:</p>
-              <p id="mennyi"></p>
+              <p id="mennyi">
               <p id="emeltmennyi"></p>
               </b>
             </div>

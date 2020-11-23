@@ -48,3 +48,19 @@ footer {
     background-color: rgb(1, 41, 51);
     color: white;
 }
+
+#mennyi {
+    font-size: 30px;
+    font-style: bold;
+}
+
+input {
+    border-radius: 25px;
+    background-color: deepskyblue;
+}
+
+#button {
+    width: 400px;
+    background-color: aquamarine;
+    height: 70px;
+}
